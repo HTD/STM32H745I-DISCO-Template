@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_BFRV" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">PREVIOUS SCREEN</Translation>
+      </Text>
+      <Text Id="__SingleUse_FDZ2" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">SCREEN 2</Translation>
+      </Text>
+      <Text Id="__SingleUse_UR50" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">NEXT SCREEN</Translation>
+      </Text>
+      <Text Id="__SingleUse_HW0K" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">SCREEN 1</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="Ubuntu-Regular.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7f" />
+    <Typography Id="DefaultBold" Font="Ubuntu-Bold.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7f" />
+    <Typography Id="DefaultBigger" Font="Ubuntu-Bold.ttf" Size="24" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="DefaultSmaller" Font="Ubuntu-Regular.ttf" Size="17" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7f" />
+    <Typography Id="SmallValue" Font="Ubuntu-Light.ttf" Size="16" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0x20-0x7f" />
+    <Typography Id="LargeValue" Font="impact.ttf" Size="28" Bpp="4" Direction="LTR" FallbackCharacter="-" WildcardCharacters="." WildcardCharacterRanges="0-9" />
+  </Typographies>
+</TextDatabase>

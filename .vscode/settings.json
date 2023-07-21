@@ -1,0 +1,94 @@
+{
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.parameterHints.enabled": false,
+    "headerSourceSwitch.mappings": [
+        {
+            "header": [
+                "",
+                ".hpp",
+            ],
+            "source": [
+                ".cpp",
+            ],
+            "name": "C++"
+        }
+        ,
+        {
+            "header": [
+                ".h",
+            ],
+            "source": [
+                ".c",
+            ],
+            "name": "C"
+        }
+    ],
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.files.exclude": {
+
+        "**/.vscode": true,
+        "**/.vs": true
+    },
+    "C_Cpp.experimentalFeatures": "enabled",
+    "files.associations": {
+        "xstring": "cpp",
+        "*.tcc": "cpp",
+        "cstdlib": "cpp",
+        "unordered_map": "cpp",
+        "istream": "cpp",
+        "numeric": "cpp",
+        "ostream": "cpp",
+        "optional": "cpp",
+        "mutex": "cpp",
+        "condition_variable": "cpp",
+        "new": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "memory": "cpp",
+        "random": "cpp",
+        "ranges": "cpp",
+        "cmath": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "csignal": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstring": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory_resource": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "limits": "cpp",
+        "sstream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "cinttypes": "cpp",
+        "typeinfo": "cpp",
+        "main_user.h": "c",
+        "swd_conf.h": "c",
+        "c_debug.h": "c"
+    },
+    "todo-tree.tree.showBadges": false,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.scanMode": "workspace only",
+}

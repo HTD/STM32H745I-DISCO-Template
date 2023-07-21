@@ -1,0 +1,83 @@
+{
+    "env": {
+        "arm-gnu-toolchain": "d:/arm/gcc-arm-none-eabi-10.3-2021.10",
+        "arm-gnu-toolchain-v": "10.3.1",
+        "arm-gnu-toolchain-t": "arm-none-eabi",
+        "arm-gnu-toolchain-f": "v7e-m+dp/hard"
+    },
+    "configurations": [
+        {
+            "name": "STM32H745I",
+            "defines": [
+                "__weak=__attribute__((weak))",
+                "__packed=__attribute__((__packed__))",
+                "__FPU_PRESENT=1U",
+                "DEBUG",
+                "CORE_CM7",
+                "USE_HAL_DRIVER",
+                "STM32H745xx",
+                "DEVICE=1"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "mergeConfigurations": true,
+            "compilerPath": "${arm-gnu-toolchain}/bin/arm-none-eabi-g++.exe",
+            "intelliSenseMode": "gcc-arm",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "compilerArgs": [
+                "-mcpu=cortex-m7",
+                "-mfpu=fpv5-d16",
+                "-mfloat-abi=hard",
+                "-mthumb"
+            ],
+            "includePath": [
+                "${arm-gnu-toolchain}/arm-none-eabi/include",
+                "${arm-gnu-toolchain}/lib/gcc/arm-none-eabi/${arm-gnu-toolchain-v}/include",
+                "${arm-gnu-toolchain}/lib/gcc/arm-none-eabi/${arm-gnu-toolchain-v}/include-fixed",
+                "${arm-gnu-toolchain}/arm-none-eabi/include/c++/${arm-gnu-toolchain-v}",
+                "${arm-gnu-toolchain}/arm-none-eabi/include/c++/${arm-gnu-toolchain-v}/arm-none-eabi",
+                "${arm-gnu-toolchain}/arm-none-eabi/include/c++/${arm-gnu-toolchain-v}/arm-none-eabi/thumb/${arm-gnu-toolchain-f}",
+                "${workspaceFolder}/Drivers/Custom",
+                "${workspaceFolder}/Configuration",
+                "${workspaceFolder}/Tools",
+                "${workspaceFolder}/Process",
+                "${workspaceFolder}/CM7/Core/Inc",
+                "${workspaceFolder}/CM7/TouchGFX/App",
+                "${workspaceFolder}/CM7/TouchGFX/target/generated",
+                "${workspaceFolder}/CM7/TouchGFX/target",
+                "${workspaceFolder}/CM7/USB_HOST/App",
+                "${workspaceFolder}/CM7/USB_HOST/Target",
+                "${workspaceFolder}/CM7/FATFS/App",
+                "${workspaceFolder}/CM7/FATFS/Target",
+                "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
+                "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+                "${workspaceFolder}/Middlewares/Third_Party/FatFs/src",
+                "${workspaceFolder}/Middlewares/ST/STM32_Audio/Addons/PDM/Inc",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Host_Library/Core/Inc",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/CM7/Middlewares/ST/touchgfx/framework/include",
+                "${workspaceFolder}/Drivers/BSP/Components/Common",
+                "${workspaceFolder}/Drivers/BSP/STM32H745I-DISCO",
+                "${workspaceFolder}/Drivers/BSP/Components/mt25tl01g",
+                "${workspaceFolder}/Drivers/BSP/Components/ft5336",
+                "${workspaceFolder}/Drivers/BSP/Components/mt48lc4m32b2",
+                "${workspaceFolder}/Drivers/BSP/Components/wm8994",
+                "${workspaceFolder}/CM7/TouchGFX/generated/fonts/include",
+                "${workspaceFolder}/CM7/TouchGFX/generated/gui_generated/include",
+                "${workspaceFolder}/CM7/TouchGFX/generated/images/include",
+                "${workspaceFolder}/CM7/TouchGFX/generated/texts/include",
+                "${workspaceFolder}/CM7/TouchGFX/generated/videos/include",
+                "${workspaceFolder}/CM7/TouchGFX/gui/include",
+                "${workspaceFolder}/CM7/PDM2PCM/App"
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,8 @@
+[CortexM7:ProjectFiles]
+HeaderPath=../Drivers/BSP/Components/Common;../Drivers/BSP/STM32H745I-DISCO
+[CortexM7:Groups]
+Application/User/CM7/TouchGFX/target=../CM7/TouchGFX/target/STM32H7Instrumentation.cpp
+Application/User/CM7/Core=../CM7/Core/Src/main_user.c
+Drivers/BSP/Components=../Drivers/BSP/Components/ft5336/ft5336.c;../Drivers/BSP/Components/ft5336/ft5336_reg.c;../Drivers/BSP/Components/mt25tl01g/mt25tl01g.c;../Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.c
+Drivers/BSP/STM32H745I-DISCO=../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery.c;../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.c;../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_lcd.c;../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.c;../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.c;../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.c;
+[CortexM7:Others]
